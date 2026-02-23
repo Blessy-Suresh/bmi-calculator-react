@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.book-display {
+  margin-top: 20px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  width: 320px;
+}
